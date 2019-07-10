@@ -10,8 +10,8 @@ public class MyGameEditorTarget : TargetRules
 		Type = TargetType.Editor;
 
 		ExtraModuleNames.AddRange( new string[] { "MyGame" } );
-
-        // Game editor
-        ExtraModuleNames.AddRange(new string[] { "MyGameEditor" });
-    }
+		
+        	// Game editor
+        	ExtraModuleNames.AddRange(new string[] { "MyGameEditor" });
+    	}
 }
